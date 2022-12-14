@@ -1,0 +1,611 @@
+/* tenor-sans-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/tenor-sans-v17-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/tenor-sans-v17-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/tenor-sans-v17-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/tenor-sans-v17-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/tenor-sans-v17-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/tenor-sans-v17-latin_cyrillic-regular.svg#TenorSans') format('svg'); /* Legacy iOS */
+  }
+/* source-serif-pro-regular - latin */
+@font-face {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/source-serif-pro-v15-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/source-serif-pro-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/source-serif-pro-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/source-serif-pro-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/source-serif-pro-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/source-serif-pro-v15-latin-regular.svg#SourceSerifPro') format('svg'); /* Legacy iOS */
+  }
+/* libre-franklin-regular - latin */
+@font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/libre-franklin-v13-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/libre-franklin-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/libre-franklin-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/libre-franklin-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/libre-franklin-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/libre-franklin-v13-latin-regular.svg#LibreFranklin') format('svg'); /* Legacy iOS */
+  }
+  /* libre-franklin-700 - latin */
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/libre-franklin-v13-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/libre-franklin-v13-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/libre-franklin-v13-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/libre-franklin-v13-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/libre-franklin-v13-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/libre-franklin-v13-latin-700.svg#LibreFranklin') format('svg'); /* Legacy iOS */
+  }
+  html {
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #ffffff;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  li{
+    list-style-type: none;
+  }
+  .header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    height: 90px;
+    border-bottom: 1px solid #E6E6E6;
+  }
+  .header__nav{
+    margin-left: 830px;
+  }
+  .header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 28px;
+  }
+  .header__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header__item {
+    margin-right: 40px;
+  }
+  .header__link {
+    font-family: "Libre Franklin";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+    text-decoration: none;
+  }
+  .header__link:hover,
+  .header__link:focus,
+  .header__link:active {
+    opacity: 0.75;
+  }
+  .logodiv{
+    margin-left: 120px;
+    margin-top: 37px;
+  }
+.bigpic{
+    margin-top: 59px;
+    margin-left: 118px;
+    display: flex;
+    height: 472.5px;
+    margin-bottom: 35px;
+}
+.map1of4{
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #999999;
+margin-left: 51px;
+}
+.map2of4{
+width: 429px;
+font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-transform: uppercase;
+color: #000000;
+margin-left: 51px;
+}
+.map3of4{
+    font-family: 'Source Serif Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #666666;
+margin-left: 51px;
+width: 419px;
+margin-bottom: 40px;
+}
+.map4of4{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #000000;
+margin-left: 51px;
+}
+.secondpiclist1of2{
+    display: flex;
+    padding-left: 120px;
+    padding-top: 30px;
+}
+.secondpiclist2of2{
+    display: flex;
+padding-top: 50px;
+padding-left: 120px;
+}
+.piclist1of2{
+    display: flex;
+padding-left: 118px;
+}
+.piclist2of2{
+    display: flex;
+padding-left: 118px;
+padding-top: 50px;
+}
+.sixpic{
+    max-width: 100%;
+}
+.piclistitem{
+    margin-right: 20px;
+}
+.piclitext1of3{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.piclitext2of3o1{
+    font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size : 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #000000;
+max-width: 347px;
+}
+.piclitext3of3{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #000000;
+}
+.piclitext2of3o2{
+    font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size : 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #000000;
+max-width: 383px;
+}
+.piclitext2of3o3{
+    font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size : 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #000000;
+max-width: 353px;
+}
+.double{
+    padding-top: 25px;
+    padding-bottom: 90px;
+}
+.piclitext2o2of3o1{
+    font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size : 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #000000;
+max-width: 330px;
+}
+.piclitext2o2of3o2{
+    font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size : 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #000000;
+max-width: 364px;
+}
+.piclitext2o2of3o3{
+    font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size : 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #000000;
+max-width: 378px;
+}
+.line1of2{
+    width: 1200px;
+border: solid 1px #E6E6E6;
+margin-left: 120px;
+}
+.linelast{
+    width: 1200px;
+border: solid 1px white;
+margin-left: 120px;
+}
+.line2of2{
+    width: 1200px;
+border: solid 1px #E6E6E6;
+margin-left: 120px;
+}
+.titulnik{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #999999;
+padding-left: 120px;
+padding-top: 90px;
+}
+.titulniklast{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #666666;
+margin-left:120px;
+padding-top: 60px;
+}
+.doubletitul{
+    display: flex;
+    padding-bottom: 20px;
+}
+.thelastesttitulnik{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #666666;   
+padding-top: 60px;
+margin-left: 823px; 
+}
+.titulnik2{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #999999;
+padding-left: 120px;
+margin-top: 90px;
+}
+.piclitext21of8{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size : 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 280px;
+}
+.piclitext22of8{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size : 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 281px;
+}
+.piclitext23of8{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size : 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 285px;
+}
+.piclitext24of8{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size : 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 261px;
+}
+.piclitext25of8{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size : 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 248px;
+}
+.piclitext26of8{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size : 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 282px;
+}
+.piclitext27of8{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size : 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 231px;
+}
+.piclitext28of8{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size : 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 280px;
+}
+.viewbutton{
+    width: 205px;
+    height: 54px;
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #000000;
+background: transparent;
+margin-top: 90px;
+margin-bottom: 90px;
+}
+.forbutton{
+text-align: center;
+}
+.piclitext214{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size : 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 528px;
+}
+.piclitext224{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size : 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 518px;
+}
+.piclitext234{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size : 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 570px;
+}
+.piclitext244{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size : 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 543px;
+}
+footer{
+    background-color: #141414;
+}
+.content{
+    margin-left: 120px;
+}
+.logoandtext{
+    display: flex;
+}
+.logowhite{
+    padding-top: 93px;
+
+}
+.textaflogo{
+    color :white;
+    padding-top: 90px;
+    padding-left: 15px;
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #666666;
+padding-bottom: 60px;
+}
+.firsttable{
+    color:white;
+    padding-left: 120px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 70px;
+}
+.tttable{
+    color:white;
+    padding-left: 120px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 95px;
+}
+.tableword1{
+padding-right: 92px;
+padding-bottom: 15px;
+}
+.tableword2{
+padding-right: 122px;
+padding-bottom: 15px;
+}
+.tableword3{
+padding-right: 130px;
+padding-bottom: 15px;
+}
+.tableword4{
+padding-bottom: 15px;
+}
+.tableword11{
+    padding-right: 117px;
+    padding-bottom: 15px;
+    }
+    .tableword22{
+        padding-right: 145px;
+        padding-bottom: 15px;
+        }
+        .tableword1{
+            padding-right: 80px;
+            padding-bottom: 15px;
+            }
+            .ptrr{
+                font-family: 'Libre Franklin';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 12px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color: #666666;
+            }
+.butafta{
+    display: flex;
+}
+.search{
+    color: white;
+}
+.mail{
+    width: 221px;
+    height: 48px;
+    margin-left: 128px;
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #666666;
+padding-left: 24px;
+}
+.vvod{
+    width: 79px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.lasttable{
+    color:white;
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+padding-left: 120px;
+}
+.grta{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #666666;
+}
